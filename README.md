@@ -1,2 +1,2 @@
 # FindSum
-Awesome lib for sum your array.
+An Awesome lib for summing your array.
