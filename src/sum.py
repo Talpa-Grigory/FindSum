@@ -1,10 +1,9 @@
-def sum(array):
+def sum_pow(array, pow=1):
     total = 0
     for num in array:
-        total += num
+        total += num ** pow
     return total
 
-test_1 = [0, 1, 2]
-print(sum(test_1))
-test_2 = [5, 5, 5]
-print(sum(test_2))
+test_1 = [2, 2, 2]
+print(sum_pow(test_1))
+print(sum_pow(test_1, 2))
