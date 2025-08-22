@@ -1,7 +1,10 @@
-def sum_pow(array, pow=1):
+def sum_pow(array, pow=False):
     total = 0
     for num in array:
-        total += num ** pow
+        if pow:
+            total += num ** pow
+        else:
+            total += num
     return total
 
 test_1 = [2, 2, 2]
